@@ -5,7 +5,12 @@
     "assetUrl": "https://openai.gallerycdn.vsassets.io/extensions/openai/chatgpt/26.51007.21434/1791508178385/Microsoft.VisualStudio.Services.Icons.Default",
     "retrievedAt": "2026-10-17",
     "sha256": "2ce1c57dd3b312417106a487815ab1235bddce17e1fa9b32a2f048bd71ee25d3",
-    "bytes": 10969
+    "bytes": 10969,
+    "displayAsset": {
+      "file": "codex-cutout.svg",
+      "sha256": "d3f337be2e2f17e906bab3661ca208917d6838bf1eba1c298c1d7519e4ec567e",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "claude.png",
@@ -13,7 +18,12 @@
     "assetUrl": "https://code.claude.com/docs/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png",
     "retrievedAt": "2026-10-17",
     "sha256": "d4e5e8e9990ac52f147a74ae80b9e69cdc612264b84a76cdb5c43b53b73a1707",
-    "bytes": 18001
+    "bytes": 18001,
+    "displayAsset": {
+      "file": "claude-cutout.svg",
+      "sha256": "0eb31d9f723504655f2bd0de1d864e8ff6f2b85b276ee486ed2d546be3ccb864",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "gemini.png",
@@ -21,7 +31,12 @@
     "assetUrl": "https://geminicli.com/icon.png",
     "retrievedAt": "2026-10-17",
     "sha256": "351e9f5b1bf863d738cd7be4ed040a625a1419450ae7fc490143e4042b7c2438",
-    "bytes": 46696
+    "bytes": 46696,
+    "displayAsset": {
+      "file": "gemini-cutout.svg",
+      "sha256": "59c4b22eeccde782205c6dc7343c63366c87fa5c8c2f3d7b3d34a374e471b591",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "cursor.svg",
@@ -49,7 +64,12 @@
     "assetUrl": "https://lf-static.traecdn.us/obj/trae-ai-tx/trae_website/favicon.png",
     "retrievedAt": "2026-10-17",
     "sha256": "49d523938a22af5a70dd79923725df38674823026e2f917e76337319969f4af4",
-    "bytes": 488
+    "bytes": 488,
+    "displayAsset": {
+      "file": "trae-cutout.svg",
+      "sha256": "ce359fb9db2a5c276ad3ab6c6144e2954bb72a1131dce4899dca886a9ed2ed2e",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "qoder.svg",
@@ -75,7 +95,12 @@
     "assetUrl": "https://zcode.z.ai/favicon-192x192.png?v=20260707-transparent",
     "retrievedAt": "2026-10-17",
     "sha256": "089bdfa74910eaed241eac46bf5d02bb5718f15d8d6b247a1ee61b3372c9c82c",
-    "bytes": 6479
+    "bytes": 6479,
+    "displayAsset": {
+      "file": "zcode-cutout.svg",
+      "sha256": "e0276005bdbb6d8b50c4e23debd3df60a3b258b8e15c2c3f4d2e80a8b3633dfa",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "antigravity-tools.png",
@@ -83,7 +108,12 @@
     "assetUrl": "https://raw.githubusercontent.com/lbjlaq/Antigravity-Manager/main/src-tauri/icons/128x128@2x.png",
     "retrievedAt": "2026-10-17",
     "sha256": "b1ee2fffca7f36b7a6355866feb8dda9f01cd6b841778abd8ff28a10e66ffa07",
-    "bytes": 46049
+    "bytes": 46049,
+    "displayAsset": {
+      "file": "antigravity-tools-cutout.svg",
+      "sha256": "935f63668cd873d3d2b48f52d5639e7d8b11a08a1e8561decee6a9e66a374825",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "deepseek-harness.svg",
@@ -109,7 +139,12 @@
     "assetUrl": "https://opencode.ai/favicon-96x96-v3.png",
     "retrievedAt": "2026-10-17",
     "sha256": "aa34092540de60c889610edfa3c25316e215f12d88af29cfba530d09aee7265c",
-    "bytes": 536
+    "bytes": 536,
+    "displayAsset": {
+      "file": "opencode-cutout.svg",
+      "sha256": "c45ae47ba15c00981b813b54158b6a40764d730e71df575f0e1211a45bf94ce8",
+      "modification": "Original pixels embedded with SVG alpha mask to remove background tile; no redrawn geometry. Monochrome white marks use graphite for light-surface visibility."
+    }
   },
   {
     "file": "ollama.png",
