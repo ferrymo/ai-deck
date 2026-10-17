@@ -1,5 +1,5 @@
-import { Box, ChevronRight, FolderOpen, GitBranch, Link2 } from 'lucide-react';
-import { Badge, Empty } from '../components';
+import { ChevronRight, FolderOpen, GitBranch, Link2 } from 'lucide-react';
+import { Badge, Empty, ToolIcon } from '../components';
 import { useDeck } from '../context';
 export function Runtimes() {
   const { state, api, perform, inspect } = useDeck();
@@ -29,9 +29,7 @@ export function Runtimes() {
           return (
             <article className="runtime-row" key={runtime.id}>
               <div className="runtime-main">
-                <span className="node-icon">
-                  <Box size={25} strokeWidth={1.5} />
-                </span>
+                <ToolIcon id="nodejs" />
                 <div>
                   <h3>
                     Node.js <span className="version">{runtime.version}</span>

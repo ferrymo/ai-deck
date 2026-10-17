@@ -564,25 +564,16 @@ code,
   background: var(--icon-ink);
   color: var(--icon-on-ink);
 }
-.tool-icon.clay {
-  background: #f6e7df;
-  color: #a65337;
+.tool-icon.official-logo {
+  /* A stable light surface preserves original brand colors in both app themes. */
+  background: #fff;
+  border: 1px solid var(--border);
 }
-.tool-icon.blue {
-  background: #e8edfc;
-  color: #4966ca;
-}
-.tool-icon.mint {
-  background: #e6f3ee;
-  color: #328069;
-}
-.tool-icon.rose {
-  background: #f8e6e9;
-  color: #b34360;
-}
-.tool-icon.violet {
-  background: #ece8f8;
-  color: #7254ba;
+.tool-icon img {
+  display: block;
+  width: 76%;
+  height: 76%;
+  object-fit: contain;
 }
 .tool-icon.large {
   width: 51px;
@@ -1213,13 +1204,9 @@ code,
   align-items: center;
   gap: 14px;
 }
-.node-icon {
-  color: var(--green);
-  background: var(--green-soft);
+.runtime-main .tool-icon {
   width: 44px;
   height: 44px;
-  display: grid;
-  place-items: center;
   border-radius: 11px;
 }
 .runtime-main h3 {
@@ -2185,7 +2172,7 @@ dialog::backdrop {
     padding-left: 0;
     margin-left: 0;
   }
-  .node-icon {
+  .runtime-main .tool-icon {
     height: 34px;
     width: 34px;
   }

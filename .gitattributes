@@ -1,0 +1,6 @@
+# Keep text checkouts consistent with Biome on Windows, macOS, and Linux.
+* text=auto eol=lf
+
+# Preserve Windows command script conventions when these files are added.
+*.bat text eol=crlf
+*.cmd text eol=crlf

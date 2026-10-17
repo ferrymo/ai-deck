@@ -1,0 +1,132 @@
+[
+  {
+    "file": "codex.png",
+    "sourcePage": "https://marketplace.visualstudio.com/items?itemName=openai.chatgpt",
+    "assetUrl": "https://openai.gallerycdn.vsassets.io/extensions/openai/chatgpt/26.51007.21434/1791508178385/Microsoft.VisualStudio.Services.Icons.Default",
+    "retrievedAt": "2026-10-17",
+    "sha256": "2ce1c57dd3b312417106a487815ab1235bddce17e1fa9b32a2f048bd71ee25d3",
+    "bytes": 10969
+  },
+  {
+    "file": "claude.png",
+    "sourcePage": "https://code.claude.com/docs/en/overview",
+    "assetUrl": "https://code.claude.com/docs/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "d4e5e8e9990ac52f147a74ae80b9e69cdc612264b84a76cdb5c43b53b73a1707",
+    "bytes": 18001
+  },
+  {
+    "file": "gemini.png",
+    "sourcePage": "https://geminicli.com",
+    "assetUrl": "https://geminicli.com/icon.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "351e9f5b1bf863d738cd7be4ed040a625a1419450ae7fc490143e4042b7c2438",
+    "bytes": 46696
+  },
+  {
+    "file": "cursor.svg",
+    "sourcePage": "https://cursor.com",
+    "assetUrl": "https://cursor.com/marketing-static/favicon-light.svg",
+    "retrievedAt": "2026-10-17",
+    "sha256": "af6ee136eaee84ab5294629fce97a457e8f33002ff03d731b147785b6b55a377",
+    "bytes": 4409,
+    "upstreamSha256": "78f169abca311d70e18ada789ccf1a55b4ca0306822f21a9ab0c2658ed88dbe0",
+    "modification": "Added SVG title metadata; artwork unchanged."
+  },
+  {
+    "file": "windsurf.svg",
+    "sourcePage": "https://windsurf.com/brand",
+    "assetUrl": "https://exafunction.github.io/public/brand/windsurf-black-symbol.svg",
+    "retrievedAt": "2026-10-17",
+    "sha256": "4df59294d686a4eabe17b05e7cd75cd1d57cbd9ae5cccfda08478bf56640d455",
+    "bytes": 1164,
+    "upstreamSha256": "5cab2b369a377f5e37e2fb67d1855ecf2d69a08a25e8ef531a9439d0e020f69c",
+    "modification": "Added SVG title metadata; artwork unchanged."
+  },
+  {
+    "file": "trae.png",
+    "sourcePage": "https://www.trae.ai",
+    "assetUrl": "https://lf-static.traecdn.us/obj/trae-ai-tx/trae_website/favicon.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "49d523938a22af5a70dd79923725df38674823026e2f917e76337319969f4af4",
+    "bytes": 488
+  },
+  {
+    "file": "qoder.svg",
+    "sourcePage": "https://qoder.com",
+    "assetUrl": "https://qoder.com/favIcon.svg",
+    "retrievedAt": "2026-10-17",
+    "sha256": "28b88fca6a6b0f3b082c5e40f4e171eaa8f8db31c59ec68cff28445af564ecba",
+    "bytes": 73399,
+    "upstreamSha256": "5e1843cb50c4613855024453e76d5c06d2ca5562efebc12b4fcd80cf9ece1dd0",
+    "modification": "Added SVG title metadata; artwork unchanged."
+  },
+  {
+    "file": "antigravity.png",
+    "sourcePage": "https://antigravity.google",
+    "assetUrl": "https://antigravity.google/assets/image/antigravity-logo.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "193ba1805de11c23cd0c7a1df92aa0a886708e57350f6f7766100afe5befed73",
+    "bytes": 32382
+  },
+  {
+    "file": "zcode.png",
+    "sourcePage": "https://zcode.z.ai",
+    "assetUrl": "https://zcode.z.ai/favicon-192x192.png?v=20260707-transparent",
+    "retrievedAt": "2026-10-17",
+    "sha256": "089bdfa74910eaed241eac46bf5d02bb5718f15d8d6b247a1ee61b3372c9c82c",
+    "bytes": 6479
+  },
+  {
+    "file": "antigravity-tools.png",
+    "sourcePage": "https://github.com/lbjlaq/Antigravity-Manager",
+    "assetUrl": "https://raw.githubusercontent.com/lbjlaq/Antigravity-Manager/main/src-tauri/icons/128x128@2x.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "b1ee2fffca7f36b7a6355866feb8dda9f01cd6b841778abd8ff28a10e66ffa07",
+    "bytes": 46049
+  },
+  {
+    "file": "deepseek-harness.svg",
+    "sourcePage": "https://github.com/deepseek-ai/deepseek-harness",
+    "assetUrl": "https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/apps/desktop/resources/icon-windows.svg",
+    "retrievedAt": "2026-10-17",
+    "sha256": "312da1a86eb9b9db6fc0400d140fbf0afe26bd5d9151a70feebebff36af2874d",
+    "bytes": 7388,
+    "upstreamSha256": "0799d196151083f123a8ae28979471da2276f29664b21c562c82a4b789d2104e",
+    "modification": "Added SVG title metadata; artwork unchanged."
+  },
+  {
+    "file": "cc-switch.png",
+    "sourcePage": "https://github.com/farion1231/cc-switch",
+    "assetUrl": "https://raw.githubusercontent.com/farion1231/cc-switch/main/src-tauri/icons/128x128@2x.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "efbe73b4642d35ed7987cebb223e4f2b1d03408226c48d9edc37dbb5b1c69be4",
+    "bytes": 44631
+  },
+  {
+    "file": "opencode.png",
+    "sourcePage": "https://opencode.ai",
+    "assetUrl": "https://opencode.ai/favicon-96x96-v3.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "aa34092540de60c889610edfa3c25316e215f12d88af29cfba530d09aee7265c",
+    "bytes": 536
+  },
+  {
+    "file": "ollama.png",
+    "sourcePage": "https://ollama.com",
+    "assetUrl": "https://ollama.com/public/ollama-nav.png",
+    "retrievedAt": "2026-10-17",
+    "sha256": "ab2a93aa7f3756a87c9429e4056e6405ce9f94d5cb0aa188c19d3e4ca2d04b68",
+    "bytes": 4782
+  },
+  {
+    "file": "nodejs.svg",
+    "sourcePage": "https://github.com/nodejs/nodejs.org",
+    "assetUrl": "https://raw.githubusercontent.com/nodejs/nodejs.org/main/apps/site/public/static/logos/nodejsHex.svg",
+    "retrievedAt": "2026-10-17",
+    "sha256": "05d4bab781d93adb71b142b956bf82d878efb938676b7853c8f9748847243952",
+    "bytes": 2135,
+    "upstreamSha256": "e4c8de546b2462ad9497679c55609701144ffacd8e18ac17a7f7f7b795de9fe7",
+    "modification": "Added SVG title metadata; artwork unchanged."
+  }
+]

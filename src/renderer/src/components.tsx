@@ -1,38 +1,16 @@
-import {
-  Asterisk,
-  Box,
-  Code2,
-  Command,
-  FolderOpen,
-  MousePointer2,
-  Search,
-  Sparkles,
-  Terminal,
-  ToggleLeft,
-  Waves,
-  X,
-} from 'lucide-react';
+import { Box, FolderOpen, Search, X } from 'lucide-react';
 import type { ReactNode } from 'react';
 import type { Installation } from '../../core/models';
-import { definition } from '../../shared/catalog';
+import { brandLogos } from './brands';
 
 export function ToolIcon({ id, large = false }: { id: string; large?: boolean }) {
-  const tool = definition(id);
-  const Icon =
-    {
-      terminal: Terminal,
-      asterisk: Asterisk,
-      sparkle: Sparkles,
-      command: Command,
-      cursor: MousePointer2,
-      waves: Waves,
-      code: Code2,
-      switch: ToggleLeft,
-      box: Box,
-    }[tool?.mark ?? 'box'] ?? Box;
+  const logo = brandLogos[id];
   return (
-    <span className={`tool-icon ${tool?.color ?? 'ink'} ${large ? 'large' : ''}`}>
-      <Icon size={large ? 30 : 23} strokeWidth={1.8} />
+    <span
+      className={`tool-icon ${logo ? 'official-logo' : 'ink'} ${large ? 'large' : ''}`}
+      aria-hidden="true"
+    >
+      {logo ? <img src={logo} alt="" draggable={false} /> : <Box size={large ? 30 : 23} strokeWidth={1.8} />}
     </span>
   );
 }
