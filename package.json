@@ -1,0 +1,49 @@
+{
+  "name": "ai-deck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "个人 AI 工具管家",
+  "author": "ferrymo",
+  "license": "MIT",
+  "type": "module",
+  "main": "out/main/index.cjs",
+  "packageManager": "pnpm@11.10.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "electron-vite dev",
+    "dev:web": "vite --config vite.web.config.ts --host 127.0.0.1",
+    "build": "electron-vite build",
+    "typecheck": "tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.web.json --noEmit",
+    "check": "biome check .",
+    "format": "biome check --write .",
+    "test": "vitest run",
+    "test:ui": "playwright test",
+    "test:electron": "node scripts/electron-smoke.mjs",
+    "pack": "pnpm build && electron-builder --dir",
+    "dist": "pnpm build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "better-sqlite3": "13.0.3",
+    "electron-updater": "6.8.10",
+    "lucide-react": "1.59.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@playwright/test": "1.64.1",
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.9.0",
+    "electron-builder": "26.17.0",
+    "electron-vite": "6.0.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

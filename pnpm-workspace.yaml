@@ -1,0 +1,8 @@
+strictDepBuilds: true
+allowBuilds:
+  better-sqlite3: false
+  electron: true
+  electron-winstaller: false
+minimumReleaseAgeExclude:
+  - electron@44.9.0
+  - lucide-react@1.59.0

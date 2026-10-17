@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "src/main",
+    "src/preload",
+    "src/worker",
+    "src/adapters",
+    "src/core",
+    "src/shared",
+    "tests/**/*.ts",
+    "*.config.ts"
+  ]
+}

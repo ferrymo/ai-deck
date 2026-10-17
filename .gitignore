@@ -1,0 +1,12 @@
+node_modules/
+out/
+dist/
+release/
+test-results/
+playwright-report/
+.impeccable/review/
+.impeccable/cache/
+*.log
+*.tgz
+.env*
+!.env.example
