@@ -5,7 +5,7 @@ test('导航、搜索、实例、设置保存、诚实预览', async ({ page }) 
   const errors: string[] = [];
   page.on('pageerror', (error) => errors.push(error.message));
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: '一切就绪，从这里开始。' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '飞行甲板已就绪，您负责飞我负责稳~' })).toBeVisible();
   await expect(page.getByText('预览 · 示例数据')).toBeVisible();
   await page.getByRole('button', { name: '发现本机工具', exact: true }).click();
   await expect(page.getByRole('alert')).toContainText('界面预览');

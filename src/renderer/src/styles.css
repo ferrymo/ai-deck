@@ -160,13 +160,12 @@ code,
   -webkit-app-region: drag;
 }
 .brand-mark {
-  width: 33px;
-  height: 35px;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
   border-radius: 9px;
-  display: grid;
-  place-items: center;
-  background: var(--accent);
-  color: #fff;
+  display: block;
+  object-fit: contain;
 }
 .brand-dot {
   color: var(--accent);
@@ -237,45 +236,20 @@ code,
 .sidebar-bottom {
   margin-top: auto;
   padding-top: 20px;
-}
-.local-status {
-  border-top: 1px solid var(--border);
-  margin: 0 9px 15px;
-  padding: 20px 0 5px;
   display: flex;
   align-items: center;
-  gap: 8px;
 }
-.local-status > svg {
-  margin-left: auto;
-  color: var(--muted);
+.sidebar-bottom > .nav-item {
+  flex: 1;
+  min-width: 0;
 }
-.local-status strong,
-.local-status div span {
-  display: block;
-}
-.local-status strong {
-  font-size: 11px;
-  font-weight: 550;
-}
-.local-status div span {
-  color: var(--muted);
-  font-size: 10px;
-  margin-top: 3px;
-}
-.sidebar-version {
+.sidebar-controls {
   height: 57px;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 10px;
-  font-size: 11px;
-  color: var(--secondary);
-}
-.sidebar-version > span > span {
-  color: var(--muted);
-  margin-left: 5px;
-  font-size: 10px;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
 .workspace {
   display: flex;
@@ -1816,9 +1790,7 @@ dialog::backdrop {
 .nav-collapsed .brand > span:last-child,
 .nav-collapsed .global-search span,
 .nav-collapsed .global-search kbd,
-.nav-collapsed .nav-item > span,
-.nav-collapsed .local-status,
-.nav-collapsed .sidebar-version > span {
+.nav-collapsed .nav-item > span {
   display: none;
 }
 .nav-collapsed .global-search {
@@ -1829,11 +1801,17 @@ dialog::backdrop {
   justify-content: center;
   padding: 0;
 }
-.nav-collapsed .sidebar-version {
+.nav-collapsed .sidebar-controls {
   justify-content: center;
   margin: 0;
 }
-.nav-collapsed .sidebar-version svg {
+.nav-collapsed .sidebar-bottom {
+  flex-direction: column;
+}
+.nav-collapsed .sidebar-bottom > .nav-item {
+  flex: none;
+}
+.nav-collapsed .sidebar-controls svg {
   transform: rotate(180deg);
 }
 @keyframes inspect-in {
@@ -1964,6 +1942,12 @@ dialog::backdrop {
   .sidebar {
     padding: 21px 8px 0;
   }
+  .sidebar-bottom {
+    min-height: 77px;
+  }
+  .sidebar-controls {
+    display: none;
+  }
   .brand {
     padding: 0 9px;
     margin-bottom: 28px;
@@ -1972,9 +1956,7 @@ dialog::backdrop {
   .global-search span,
   .global-search kbd,
   .nav-item > span,
-  .local-status,
-  .sidebar-version > span,
-  .sidebar-version button {
+  .sidebar-controls button {
     display: none;
   }
   .global-search {

@@ -24,6 +24,7 @@ import {
   X,
 } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import deckLogo from '../../../resources/icon.png';
 import { emptySnapshot, type Page, type SelfUpdate, type Snapshot } from '../../core/models';
 import { definition } from '../../shared/catalog';
 import { Badge, formatTime, HealthBadge, ToolIcon } from './components';
@@ -192,9 +193,7 @@ export function App() {
       <div className={`app-shell ${collapsed ? 'nav-collapsed' : ''}`}>
         <aside className="sidebar">
           <div className="brand">
-            <span className="brand-mark">
-              <Layers3 size={24} strokeWidth={1.8} />
-            </span>
+            <img className="brand-mark" src={deckLogo} alt="" width={34} height={34} />
             <span>
               AI Deck<span className="brand-dot">.</span>
             </span>
@@ -223,14 +222,6 @@ export function App() {
             ))}
           </nav>
           <div className="sidebar-bottom">
-            <div className="local-status">
-              <span className="status-dot" />
-              <div>
-                <strong>{preview ? '界面预览' : '本机工作空间'}</strong>
-                <span>{preview ? '示例数据 · 未连接本机' : '数据仅保存在这台电脑'}</span>
-              </div>
-              <ShieldCheck size={16} />
-            </div>
             <button
               type="button"
               className={`nav-item ${page === 'settings' ? 'active' : ''}`}
@@ -240,10 +231,7 @@ export function App() {
               <Settings2 size={19} strokeWidth={1.7} />
               <span>偏好设置</span>
             </button>
-            <div className="sidebar-version">
-              <span>
-                AI Deck <span>v{self.currentVersion}</span>
-              </span>
+            <div className="sidebar-controls">
               <button
                 type="button"
                 className="icon-button"

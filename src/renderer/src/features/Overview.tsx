@@ -26,7 +26,7 @@ export function Overview() {
     <>
       <div className="page-heading">
         <div>
-          <h1>一切就绪，从这里开始。</h1>
+          <h1>飞行甲板已就绪，您负责飞我负责稳~</h1>
           <p>把工具交给 AI Deck，把注意力留给创造。</p>
         </div>
         <button

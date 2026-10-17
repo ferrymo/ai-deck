@@ -166,6 +166,8 @@ components:
 
 ## Shapes
 
+AI Deck 品牌标识使用蓝底白色 A 形机翼与独立甲板，源图为 `resources/logo-source.png`。侧栏以 34px 正方形、9px 圆角展示 `resources/icon.png`；Windows 图标由同一原图导出多尺寸 ICO，详见 `docs/Logo更新记录.md`。
+
 使用小圆角矩形，面板与控件半径见 frontmatter；工具品牌图标采用本地官方素材，保留原色与比例，深浅主题均置于白色细边框底座。未知工具使用通用占位图标。状态点为小圆点。轮廓以单条细边框为主，不加厚重渐变边缘或立体浮雕。
 
 ## Components
